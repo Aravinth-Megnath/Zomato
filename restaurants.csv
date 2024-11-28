@@ -1,0 +1,41 @@
+restaurant_id,name,cuisine_type,location,owner_name,average_delivery_time,contact_number,rating,total_orders,is_active
+1,Leonard LLC,Thai,"9071 Monica Skyway
+West Sean, DE 11620",Bryan Clark,42,4267890395,3.9,730,0
+2,"Harris, Ortiz and Johnson",Chinese,"374 Robinson Heights Apt. 975
+North Sharonhaven, ME 23313",Vincent Ellis,29,820.998.8477x925,3.6,869,0
+3,"Allen, Rose and Knight",Thai,"066 Kenneth Skyway Suite 944
+New Christina, CA 56445",Christina Hood,44,941.716.6473x1635,3.7,861,1
+4,Grant Inc,Chinese,"60106 Donna Pine
+Alejandroberg, VA 43351",Brian Rivera,38,5838943950,4.4,668,0
+5,"White, Jordan and Carter",Mexican,"9713 Rachel Cove
+Nicolemouth, UT 29548",Jon Fernandez,30,+1-203-462-5794,4.5,82,0
+6,West Group,Thai,"75750 Antonio Vista Suite 783
+Elizabethmouth, AK 51802",Richard Martin,27,9438546790,3.7,44,1
+7,Schneider and Sons,Indian,"64269 Perez Springs Apt. 920
+New Gregory, KY 98429",Angel Bell,32,001-345-244-3264x262,3.0,771,0
+8,West Inc,Italian,"34353 Rogers Mountain Apt. 461
+North Cathy, NE 75787",Denise Becker,32,001-743-647-5424x912,3.8,400,0
+9,Rodriguez PLC,Italian,"5120 Garcia Stream Suite 889
+Gabrieltown, CO 27503",Mark Middleton III,20,001-861-891-1253x79828,4.5,485,1
+10,Moses Ltd,Mexican,"0434 Henry Vista
+Lake Jameschester, NM 70163",Alan Clark,26,673.882.8998x87886,4.9,64,0
+11,Hardin-Smith,Chinese,"0840 Gregory Spur Apt. 135
+East Christinaberg, GU 83472",Emily Rodriguez,31,+1-624-666-1458x4623,4.0,367,1
+12,Mayer-Salazar,Mexican,"06610 Sean Union
+Colinside, KY 85385",Mr. Sean Payne DVM,31,(247)279-7556x1000,4.3,803,0
+13,Perez PLC,Indian,"9710 Paul Highway
+Greggberg, SD 52127",Randall Berg Jr.,33,399.563.4098x4228,4.4,915,1
+14,Kennedy-Williams,Mexican,"8864 David Mountains Suite 657
+New Rogershire, MN 13546",Daniel Carter,23,+1-226-512-3155,3.2,304,1
+15,Cunningham-Silva,Chinese,"4166 Hubbard Stravenue Suite 326
+East Eric, ID 83308",Leslie Raymond,40,+1-432-855-4793x4160,4.5,441,0
+16,Myers-Williams,Indian,"78949 Santos Oval Suite 280
+New Gregory, UT 28233",Kelly Poole,43,7417514556,4.8,518,1
+17,Lee-Smith,Indian,"393 Clark Knolls Apt. 819
+Riveraberg, NV 36359",David Beck,20,+1-754-565-7785x13018,3.2,90,1
+18,Richardson LLC,Thai,"569 Mendez Corners
+Porterborough, ID 67105",Ellen Wells,29,892.749.1806x314,3.1,248,1
+19,Whitehead-Stephenson,Italian,"82976 Jennings Camp
+Heatherville, NJ 99565",Jo Wilkins,27,001-668-901-2187x6293,4.1,238,0
+20,"Sutton, Ramirez and Callahan",Chinese,"8172 Kramer Meadow
+Amyview, TX 87405",Patricia Singh,21,320-298-7386,4.6,285,0

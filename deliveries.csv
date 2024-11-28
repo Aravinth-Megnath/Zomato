@@ -1,0 +1,101 @@
+delivery_id,order_id,delivery_status,distance,delivery_time,estimated_time,delivery_fee,vehicle_type
+1,83,On the way,6.6,75,29,10.57,Scooter
+2,44,On the way,6.1,78,35,65.35,Bike
+3,80,Delivered,14.28,90,15,66.53,Bike
+4,47,On the way,12.57,77,28,49.94,Car
+5,54,Delivered,15.24,44,36,41.77,Car
+6,58,Failed,14.05,86,35,27.74,Bike
+7,21,Delivered,18.01,56,44,38.84,Scooter
+8,22,Failed,10.31,92,39,37.16,Bike
+9,20,On the way,17.0,100,41,90.55,Bike
+10,14,Delivered,18.87,115,47,52.83,Bike
+11,73,On the way,19.51,97,27,13.59,Bike
+12,15,On the way,15.6,107,39,64.42,Scooter
+13,88,Failed,2.26,38,45,17.36,Bike
+14,76,Failed,6.59,66,54,86.58,Bike
+15,100,On the way,13.19,39,39,60.75,Scooter
+16,22,Failed,11.26,79,59,35.7,Bike
+17,11,Delivered,7.91,40,19,57.83,Scooter
+18,24,Delivered,13.35,110,40,93.0,Bike
+19,39,Failed,16.53,65,38,70.35,Bike
+20,59,Failed,15.53,61,29,35.14,Bike
+21,75,On the way,14.58,67,15,32.56,Bike
+22,86,Failed,17.11,85,27,61.14,Car
+23,4,Failed,9.3,112,52,75.07,Scooter
+24,66,Failed,17.81,43,60,60.43,Bike
+25,99,Failed,14.63,71,52,76.71,Car
+26,82,Delivered,16.81,32,31,76.66,Bike
+27,15,On the way,9.39,23,32,53.98,Scooter
+28,23,Delivered,15.17,84,37,11.71,Car
+29,43,On the way,18.47,112,55,69.09,Scooter
+30,39,Delivered,15.36,77,27,81.82,Bike
+31,6,Failed,12.18,67,21,31.99,Car
+32,47,Delivered,19.5,30,42,40.52,Bike
+33,41,On the way,15.66,64,19,55.29,Bike
+34,12,Failed,9.71,35,24,61.45,Car
+35,53,Delivered,14.44,86,16,37.49,Scooter
+36,100,Failed,8.13,66,37,13.85,Scooter
+37,12,Delivered,12.28,31,24,78.2,Car
+38,3,Delivered,19.07,75,45,72.24,Car
+39,59,Failed,9.25,102,20,97.86,Bike
+40,16,Delivered,3.96,52,40,87.26,Bike
+41,54,On the way,16.58,100,20,60.81,Car
+42,3,Delivered,12.29,26,24,95.96,Scooter
+43,38,On the way,18.6,107,36,34.17,Car
+44,68,On the way,1.84,37,50,26.17,Bike
+45,84,Failed,2.12,104,53,24.62,Bike
+46,45,On the way,13.5,114,32,82.52,Bike
+47,68,Delivered,18.59,90,54,13.82,Bike
+48,86,On the way,16.08,79,34,11.56,Bike
+49,9,Delivered,15.85,78,30,22.33,Car
+50,71,Delivered,12.32,108,43,21.62,Car
+51,74,Failed,2.04,105,46,19.86,Car
+52,4,Failed,18.25,75,35,23.77,Bike
+53,98,Failed,10.38,61,54,33.98,Scooter
+54,18,Delivered,14.95,41,21,37.94,Bike
+55,43,Delivered,12.25,81,16,21.55,Bike
+56,96,On the way,8.47,101,22,16.15,Car
+57,56,Delivered,15.37,29,46,57.85,Scooter
+58,37,Failed,13.67,34,39,64.53,Bike
+59,78,Delivered,10.21,113,60,41.87,Scooter
+60,29,On the way,7.34,38,47,42.43,Scooter
+61,60,Failed,14.75,53,37,99.01,Car
+62,7,Delivered,2.41,108,47,91.39,Scooter
+63,4,Failed,7.21,36,38,53.94,Scooter
+64,58,On the way,19.59,29,42,53.94,Car
+65,67,Delivered,5.75,68,28,73.79,Scooter
+66,72,Delivered,5.51,57,25,93.9,Scooter
+67,28,Delivered,3.79,114,47,82.46,Car
+68,83,On the way,16.95,38,15,63.45,Scooter
+69,96,Delivered,19.42,73,46,92.23,Bike
+70,64,Failed,3.16,62,34,11.83,Car
+71,52,Delivered,6.84,64,22,78.0,Bike
+72,28,Delivered,10.96,53,36,26.63,Scooter
+73,54,Delivered,7.27,105,43,12.0,Bike
+74,41,On the way,17.47,60,51,97.3,Car
+75,27,Delivered,4.29,31,23,75.75,Car
+76,24,Failed,7.49,28,26,66.01,Car
+77,22,On the way,6.51,36,29,40.81,Car
+78,18,Failed,19.35,32,26,45.61,Car
+79,50,Delivered,8.96,55,55,83.41,Bike
+80,44,On the way,8.72,117,24,34.43,Scooter
+81,71,Failed,7.76,74,24,93.85,Car
+82,97,Failed,10.89,83,52,29.32,Bike
+83,54,On the way,14.49,52,21,59.69,Bike
+84,45,On the way,16.22,66,20,34.53,Car
+85,18,Delivered,11.39,21,32,97.17,Scooter
+86,77,Failed,15.23,116,57,32.68,Car
+87,62,On the way,1.25,108,27,67.44,Scooter
+88,53,Delivered,7.45,55,49,54.0,Scooter
+89,49,On the way,6.45,26,55,66.99,Bike
+90,77,Delivered,6.07,82,55,19.83,Scooter
+91,73,On the way,8.57,89,40,34.8,Bike
+92,97,On the way,2.51,111,49,59.83,Car
+93,33,Failed,7.43,40,18,10.54,Car
+94,15,Delivered,16.68,95,57,96.64,Bike
+95,19,On the way,10.0,76,19,19.13,Scooter
+96,67,Failed,10.26,55,42,25.08,Bike
+97,19,On the way,5.69,22,52,83.24,Car
+98,65,On the way,7.21,96,30,31.67,Bike
+99,34,On the way,13.94,113,58,99.18,Car
+100,2,Delivered,11.38,60,25,50.75,Scooter
