@@ -18,17 +18,18 @@ class DatabaseManager:
         self.cursor.execute(f"DESCRIBE {table_name}")
         return [row[0] for row in self.cursor.fetchall()]
 
-    def execute_query(self,query, params=None):
+    def execute_query(self, query, params=None):
         try:
+            cursor = self.connection.cursor()
             if params:
-                self.cursor.execute(query, params)
+                cursor.execute(query, params)
             else:
-                self.cursor.execute(query)
-            self.connection.commit()
-            return True
+                cursor.execute(query)
+            self.connection.commit()  # Commit changes
+            cursor.close()
         except Exception as e:
-            print(f"Error executing query: {e}")
-            return False
+            raise e
+
         
     def fetch_data(self, query):
         try:

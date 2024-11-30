@@ -41,13 +41,21 @@ class CRUDOperations:
             condition_column = st.selectbox("Select the condition column", columns)
             condition_value = st.text_input(f"Enter the condition value for {condition_column}")
 
-            if new_value and condition_value:
+            if st.button("Update Table"):
+                if not new_value or not condition_value:
+                    st.error("Both new value and condition value are required!")
+                    return
+
                 query = f"UPDATE {table_name} SET {column_to_update} = %s WHERE {condition_column} = %s"
+                st.write("Executing query:", query)
+                st.write("With parameters:", new_value, condition_value)
                 try:
                     self.db.execute_query(query, (new_value, condition_value))
-                    st.success("Update successful!")
+                    st.success(f"Updated {column_to_update} in {table_name} where {condition_column} = {condition_value}")
                 except Exception as e:
-                    st.error(str(e))
+                    st.error(f"Error updating table: {str(e)}")
+
+
 
     def delete_from_table(self):
         table_name = st.selectbox("Select a table", self.db.fetch_tables())
@@ -71,6 +79,24 @@ class CRUDOperations:
                         st.success(f"Table {table_name} dropped successfully!")
                     except Exception as e:
                         st.error(str(e))
+    def insert_data(self):
+        table_name = st.selectbox("Select a table", self.db.fetch_tables())
+        if table_name:
+            columns = self.db.fetch_columns(table_name)
+            st.write("Enter values for the following columns:")
+            values = {}
+            for column in columns:
+                values[column] = st.text_input(f"Value for {column}")
+            
+            if st.button("Insert Data"):
+                placeholders = ", ".join(["%s"] * len(columns))
+                column_names = ", ".join(columns)
+                query = f"INSERT INTO {table_name} ({column_names}) VALUES ({placeholders})"
+                try:
+                    self.db.execute_query(query, tuple(values[col] for col in columns))
+                    st.success("Data inserted successfully!")
+                except Exception as e:
+                    st.error(str(e))
 
     def alter_table(self):
         table_name = st.selectbox("Select a table", self.db.fetch_tables())
